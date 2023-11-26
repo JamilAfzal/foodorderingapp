@@ -31,7 +31,6 @@ class MyApp extends StatelessWidget {
           "/settingspage": (context) => Settingss(),
           "/profilepage": (context) => Profile(),
           "/buypage": (context) => Buyy(),
-          "/fooddeets": (context) => Fooddetails()
         });
   }
 }

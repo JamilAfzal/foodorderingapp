@@ -38,7 +38,11 @@ class _MenuPageState extends State<MenuPage> {
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
   void navigatetofooddeets(int index) {
     Navigator.push(
-        context, MaterialPageRoute(builder: (context) => Fooddetails()));
+        context,
+        MaterialPageRoute(
+            builder: (context) => Fooddetails(
+                  food: FoodMenu[index],
+                )));
   }
 
   int _Selectedindex = 0;
@@ -91,7 +95,7 @@ class _MenuPageState extends State<MenuPage> {
                           fontSize: 15, color: Colors.white),
                     ),
                     SizedBox(
-                      height: 20,
+                      height: 15,
                     ),
                     Row(
                       children: [

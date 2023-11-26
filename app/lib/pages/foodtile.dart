@@ -19,8 +19,7 @@ class _FoodTileState extends State<FoodTile> {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        Navigator.push(
-            context, MaterialPageRoute(builder: ((context) => Fooddetails())));
+        widget.onTap?.call();
       },
       child: Container(
           decoration: BoxDecoration(borderRadius: BorderRadius.circular(11)),

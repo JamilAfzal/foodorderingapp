@@ -39,7 +39,7 @@ class _RestpageState extends State<Restpage> {
               style: GoogleFonts.aBeeZee(fontSize: 28, color: Colors.white),
             ),
             SizedBox(
-              height: 80,
+              height: 20,
             ),
             Padding(
               padding: const EdgeInsets.only(left: 70),
@@ -50,7 +50,7 @@ class _RestpageState extends State<Restpage> {
               ),
             ),
             SizedBox(
-              height: 90,
+              height: 15,
             ),
             LoginButton(
               onTap: () {},

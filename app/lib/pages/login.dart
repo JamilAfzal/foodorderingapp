@@ -24,7 +24,7 @@ class _RestpageState extends State<Restpage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             SizedBox(
-              height: 30,
+              height: 15,
             ),
             Text(
               "CHINESE SUSHI ",

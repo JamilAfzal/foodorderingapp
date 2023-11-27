@@ -58,7 +58,7 @@ class _FooddetailsState extends State<Fooddetails> {
       appBar: AppBar(
         backgroundColor: Color.fromARGB(224, 129, 2, 2),
         elevation: 0,
-        foregroundColor: Colors.grey[400],
+        foregroundColor: Colors.white,
       ),
       body: ListView(
         children: [
@@ -66,8 +66,8 @@ class _FooddetailsState extends State<Fooddetails> {
             padding: const EdgeInsets.all(8.0),
             child: Image.asset(
               widget.food.imagePath,
-              fit: BoxFit.cover,
-              height: 250,
+              width: 200,
+              height: 200,
             ),
           ),
           SizedBox(
